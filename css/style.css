@@ -1,15 +1,48 @@
-.text {
-  display: none !important;
+/* this will reset the page to ensure there are no spaces */
+
+html, body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
 }
 
-.show {
-  display: block !important;
+.header-background {
+  background-image: url(../images/backgrounds/landing.jpg);
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
-h3:active {
-  background-color: yellow;
+.menu-logo {
+  margin: 0;
+  position: absolute;
+  top: 110px;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -16%);
 }
 
-#fur {
-  display: none !important;
+.menu-text1 {
+  margin: 0;
+  position: absolute;
+  top: 380px;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -54%);
+  font-weight: bolder;
+  color: white;
+}
+
+.menu-text2 {
+  margin: 0;
+  position: absolute;
+  top: 410px;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -64%);
+  font-weight: bolder;
+  color: white;
 }
