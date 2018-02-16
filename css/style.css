@@ -1,0 +1,15 @@
+.text {
+  display: none !important;
+}
+
+.show {
+  display: block !important;
+}
+
+h3:active {
+  background-color: yellow;
+}
+
+#fur {
+  display: none !important;
+}
