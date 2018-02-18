@@ -2,92 +2,65 @@
 <html>
 
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-      body {
-        font-family: 'Lato', sans-serif;
-      }
-
-      .overlay {
-        height: 100%;
-        width: 0;
-        position: fixed;
-        z-index: 1;
-        top: 0;
-        left: 0;
-        background-color: rgb(0, 0, 0);
-        background-color: rgba(0, 0, 0, 0.9);
-        overflow-x: hidden;
-        transition: 0.5s;
-      }
-
-      .overlay-content {
-        position: relative;
-        top: 25%;
-        width: 100%;
-        text-align: center;
-        margin-top: 30px;
-      }
-
-      .overlay a {
-        padding: 8px;
-        text-decoration: none;
-        font-size: 36px;
-        color: #818181;
-        display: block;
-        transition: 0.3s;
-      }
-
-      .overlay a:hover,
-      .overlay a:focus {
-        color: #f1f1f1;
-      }
-
-      .overlay .closebtn {
-        position: absolute;
-        top: 20px;
-        right: 45px;
-        font-size: 60px;
-      }
-
-      @media screen and (max-height: 450px) {
-        .overlay a {
-          font-size: 20px
-        }
-        .overlay .closebtn {
-          font-size: 40px;
-          top: 15px;
-          right: 35px;
-        }
-      }
-    </style>
+    <meta charset="utf-8">
+    <title></title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>HTML help</title>
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
   </head>
 
   <body>
-
-    <div id="myNav" class="overlay">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-      <div class="overlay-content">
-        <a href="#">About</a>
-        <a href="#">Services</a>
-        <a href="#">Clients</a>
-        <a href="#">Contact</a>
+    <header class="head">
+      <div class="menu">
+        <div class="menu-logo">
+          <img class="img-responsive" src="images/logoBig.png" alt="menu-logo">
+        </div>
+        <div class="menu-text1">
+          <h3>We Provide the best food</h3>
+        </div>
+        <div class="menu-text2">
+          <h3>At The Right Price</h3>
+        </div>
       </div>
+    </header>
+
+    <!-- the second section -->
+    <section class="wrapper">
+
+      <div class="stacked">
+        <div class="happy">
+          Happy Hour
+        </div>
+        <div class="party">
+          Party Time
+        </div>
+      </div>
+      <div class="breakfast">
+        <div class="  image-breakfast">
+          <img class="img-responsive" src="images/foodtop/breakfast.jpg" alt="">
+        </div>
+      </div>
+      <div class="lunch">
+        <div class="image-lunch">
+          <img class="img-responsive" src="images/foodtop/lunch.jpg" alt="">
+        </div>
+      </div>
+      <div class="dinner">
+        <div class="image-dinner">
+          <img class="img-responsive" src="images/foodtop/dinner2.jpg" alt="">
+        </div>
+      </div>
+
+    </section>
+
+
+    <!-- the third section of the page -->
+    <div class="">
+
     </div>
-
-
-    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
-
-    <script>
-      function openNav() {
-        document.getElementById("myNav").style.width = "100%";
-      }
-
-      function closeNav() {
-        document.getElementById("myNav").style.width = "0%";
-      }
-    </script>
-
   </body>
 
 </html>

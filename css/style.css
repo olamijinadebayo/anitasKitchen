@@ -7,53 +7,41 @@
    width: 100%;
  }
 
- .header-background {
+ .head {
+   display: grid;
+   justify-items: center;
+   align-items: center;
+   justify-content: center;
+   align-content: center;
    background-image: url(../images/backgrounds/landing.jpg);
    height: 100vh;
    width: 100vw;
    background-repeat: no-repeat;
    background-size: cover;
-   position: relative;
- }
-
- .menu-logo {
-   margin: 0;
-   position: absolute;
-   top: 110px;
-   left: 50%;
-   margin-right: -50%;
-   transform: translate(-50%, -16%);
  }
 
  .menu-text1 {
-   margin: 0;
-   position: absolute;
-   top: 380px;
-   left: 50%;
-   margin-right: -50%;
-   transform: translate(-50%, -54%);
-   font-weight: bolder;
    color: white;
  }
 
  .menu-text2 {
-   margin: 0;
-   position: absolute;
-   top: 410px;
-   left: 50%;
-   margin-right: -50%;
-   transform: translate(-50%, -64%);
-   font-weight: bolder;
    color: white;
+   text-align: center;
+ }
+
+ .wrapper {
+   width: 100vw;
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
  }
 
  .happy {
-   display: flex !important;
-   flex-direction: column !important;
+   height: 50%;
+   text-align: center;
  }
 
- .happy div {
-   display: flex;
-   flex-direction: column;
-   flex: 1 1 auto;
+ .party {
+   height: 50%;
+   text-align: center;
+   background: #F15A29;
  }
