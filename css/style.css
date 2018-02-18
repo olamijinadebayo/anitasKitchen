@@ -168,7 +168,7 @@
  }
 
  .customers {
-   padding: 100px;
+   padding: 70px;
  }
 
  .size {
@@ -214,4 +214,25 @@
 
  .party-time {
    color: white;
+ }
+
+ .fp-15 {
+   font-size: 15px;
+ }
+
+ .fw {
+   width: 60%;
+ }
+
+ .orange {
+   color: #F15A29;
+ }
+
+ #food-headers {
+   background: #e3e3e3;
+   padding: 15px;
+ }
+
+ #image-holder {
+   padding: 30px;
  }
