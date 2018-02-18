@@ -70,3 +70,29 @@
  .customers {
    padding: 100px;
  }
+
+ .size {
+   width: 60%;
+ }
+
+ .form-button {
+   width: 70%;
+   margin: auto;
+ }
+
+ .suscribe {
+   background-image: url(../images/backgrounds/subscribe.jpg);
+   width: 100vw;
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding: 120px;
+ }
+
+ .header-main h3 {
+   color: white;
+ }
+
+ #submit {
+   background: #F15A29;
+   color: white;
+ }
