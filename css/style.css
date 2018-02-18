@@ -96,3 +96,18 @@
    background: #F15A29;
    color: white;
  }
+
+ footer {
+   padding: 100px;
+   background: #F15A29;
+ }
+
+ .inline {
+   display: inline;
+   padding: 10px 15px;
+ }
+
+ .social {
+   margin: auto;
+   width: 30%;
+ }
