@@ -112,8 +112,47 @@
  }
 
  .fast-images {
-   border: 1px solid black;
+   border: 1px;
    padding: 20px;
+   box-shadow: 0 0 10px #ededed;
+ }
+
+ .fast-text {
+   padding: 50px;
+ }
+
+ .font-40 {
+   font-size: 40px;
+ }
+
+ .pfont {
+   font-size: 15px;
+ }
+
+ #gallery {
+   padding: 5px 25px;
+   background: white;
+   border: 1px solid #F15A29;
+ }
+
+ .gallery {
+   color: #F15A29;
+ }
+
+ .padded {
+   padding: 0;
+   margin-right: -11px;
+ }
+
+ .padden {
+   padding: 0;
+   margin-left: -15px;
+ }
+
+ .box-shadow {
+   border: 1px;
+   padding: 20px;
+   box-shadow: 0 0 10px #ededed;
  }
 
  .burger {
@@ -171,4 +210,8 @@
  .social {
    margin: auto;
    width: 30%;
+ }
+
+ .party-time {
+   color: white;
  }
