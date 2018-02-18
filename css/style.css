@@ -45,3 +45,28 @@
    text-align: center;
    background: #F15A29;
  }
+
+ .ff {
+   width: 80%;
+ }
+
+ .fast-images {
+   border: 1px solid black;
+   padding: 20px;
+ }
+
+ .burger {
+   background-image: url(../images/backgrounds/foodsBg.jpg);
+   width: 100vw;
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding: 100px;
+ }
+
+ .foods {
+   background: white;
+ }
+
+ .customers {
+   padding: 100px;
+ }
