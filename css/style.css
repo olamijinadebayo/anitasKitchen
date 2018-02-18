@@ -198,7 +198,7 @@
  }
 
  footer {
-   padding: 100px;
+   padding: 60px;
    background: #F15A29;
  }
 
@@ -239,4 +239,16 @@
 
  .white {
    background: white;
+ }
+
+ .t-white {
+   color: white;
+ }
+
+ #footer-header {
+   font-size: 30px;
+ }
+
+ .copyright {
+   padding: 40px;
  }
